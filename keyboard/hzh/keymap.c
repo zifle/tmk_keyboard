@@ -68,9 +68,9 @@ static const uint8_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
      */
     /* Keymap 0: Default Layer
      * ,-----------------------------------------------------------.
-     * |Esc|  1|  2|  3|  4|  5|  6|  7|  8|  9|  0|  -|  =| \| Bsp|
+     * |Esc|  1|  2|  3|  4|  5|  6|  7|  8|  9|  0|  -|  =|  `|Bsp|
      * |-----------------------------------------------------------|
-     * |Tab  |  Q|  W|  E|  R|  T|  Y|  U|  I|  O|  P|  [|  ]| Del |
+     * |Tab  |  Q|  W|  E|  R|  T|  Y|  U|  I|  O|  P|  [|  ]|   \ |
      * |-----------------------------------------------------------|
      * |LCTRL |  A|  S|  D|  F|  G|  H|  J|  K|  L|  ;|  '| Return |
      * |-----------------------------------------------------------|
@@ -80,31 +80,31 @@ static const uint8_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
      *        `-------------------------------------------'
      */
     KEYMAP_ANSI(
-        ESC, 1,   2,   3,   4,   5,   6,   7,   8,   9,   0,   MINS,EQL, BSLS,BSPC, \
-        TAB, Q,   W,   E,   R,   T,   Y,   U,   I,   O,   P,   LBRC,RBRC,DEL,       \
+        ESC, 1,   2,   3,   4,   5,   6,   7,   8,   9,   0,   MINS,EQL, GRV,BSPC, \
+        TAB, Q,   W,   E,   R,   T,   Y,   U,   I,   O,   P,   LBRC,RBRC,BSLS,       \
         LCTL,A,   S,   D,   F,   G,   H,   J,   K,   L,   SCLN,QUOT,ENT,            \
         LSFT,Z,   X,   C,   V,   B,   N,   M,   COMM,DOT, SLSH,RSFT,FN0,            \
         LALT,LGUI,               SPC,           RCTL,     RALT),
 
     /* Overlay 1: HHKB mode
      * ,-----------------------------------------------------------.
-     * |  `| F1| F2| F3| F4| F5| F6| F7| F8| F9|F10|F11|F12|Ins|Del|
+     * |  `| F1| F2| F3| F4| F5| F6| F7| F8| F9|F10|F11|F12|  `|Del|
      * |-----------------------------------------------------------|
-     * |     |   |   |   |   |   |   |   |Psc|   |Pus|Up |   |Inser|
+     * |     |Mut|VoU|P/P|   |   |   |   |Psc|   |   |Up |   | Ins |
      * |-----------------------------------------------------------|
-     * |      |VoD|VoU|Mut|   |   |  *|  /|Hom|PgU|Lef|Rig|        |
+     * |      |Prv|VoD|Nxt|   |   |  *|  /|Hom|PgU|Lef|Rig|        |
      * |-----------------------------------------------------------|
      * |        |   |   |   |   |   |  +|  -|End|PgD|Dow|      |   |
      * `---------------------------------------------------,-------'
-     *        |   |    |                          |    |   |
+     *        |   |    |       Play/Pause         |    |   |
      *        `--------------------------------------------'
      */
     KEYMAP_ANSI(
-        GRV, F1,  F2,  F3,  F4,  F5,  F6,  F7,  F8,  F9,  F10, F11, F12, INS, DEL, \
-        TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,PSCR,TRNS,PAUS,UP,  TRNS,INS,      \
-        TRNS,VOLD,VOLU,MUTE,TRNS,TRNS,PAST,PSLS,HOME,PGUP,LEFT,RGHT,TRNS,           \
+        GRV, F1,  F2,  F3,  F4,  F5,  F6,  F7,  F8,  F9,  F10, F11, F12, TRNS, DEL, \
+        TRNS,MUTE,VOLU,MPLY,TRNS,TRNS,TRNS,TRNS,PSCR,TRNS,TRNS,UP,  TRNS,INS,      \
+        TRNS,MPRV,VOLD,MNXT,TRNS,TRNS,PAST,PSLS,HOME,PGUP,LEFT,RGHT,TRNS,           \
         TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,PPLS,PMNS,END, PGDN,DOWN,TRNS,TRNS,          \
-        TRNS,TRNS,               TRNS,           TRNS,     TRNS),
+        TRNS,TRNS,               MPLY,           TRNS,     TRNS),
 };
 
 /*
