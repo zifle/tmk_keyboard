@@ -92,9 +92,9 @@ static const uint8_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
      * |-----------------------------------------------------------|
      * |     |Mut|VoU|P/P|   |   |   |   |Psc|   |   |Up |   | Ins |
      * |-----------------------------------------------------------|
-     * |      |Prv|VoD|Nxt|   |   |  *|  /|Hom|PgU|Lef|Rig|        |
+     * |      |Prv|VoD|Nxt|   |   |   |   |Hom|PgU|Lef|Rig|        |
      * |-----------------------------------------------------------|
-     * |        |   |   |   |   |   |  +|  -|End|PgD|Dow|      |   |
+     * |        |   |   |   |   |   |   |   |End|PgD|Dow|      |   |
      * `---------------------------------------------------,-------'
      *        |   |    |       Play/Pause         |    |   |
      *        `--------------------------------------------'
@@ -102,8 +102,8 @@ static const uint8_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     KEYMAP_ANSI(
         GRV, F1,  F2,  F3,  F4,  F5,  F6,  F7,  F8,  F9,  F10, F11, F12, TRNS, DEL, \
         TRNS,MUTE,VOLU,MPLY,TRNS,TRNS,TRNS,TRNS,PSCR,TRNS,TRNS,UP,  TRNS,INS,      \
-        TRNS,MPRV,VOLD,MNXT,TRNS,TRNS,PAST,PSLS,HOME,PGUP,LEFT,RGHT,TRNS,           \
-        TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,PPLS,PMNS,END, PGDN,DOWN,TRNS,TRNS,          \
+        TRNS,MPRV,VOLD,MNXT,TRNS,TRNS,TRNS,TRNS,HOME,PGUP,LEFT,RGHT,TRNS,           \
+        TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,END, PGDN,DOWN,TRNS,TRNS,          \
         TRNS,TRNS,               MPLY,           TRNS,     TRNS),
 };
 
