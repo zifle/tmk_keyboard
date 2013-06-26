@@ -23,6 +23,7 @@ These features can be used in your keyboard.
 * Virtual DIP Switch  - Configurations stored EEPROM(Boot Magic)
 * Locking CapsLock    - Mechanical switch support for CapsLock
 * Breathing Sleep LED - Sleep indicator with charm during USB suspend
+* Backlight           - Control backlight levels
 
 
 Projects
@@ -49,6 +50,7 @@ You can find some keyboard specific projects under `converter` and `keyboard` di
 * [IIgs_Standard](keyboard/IIgs/)           - Apple [IIGS] keyboard mod(by JeffreySung)
 * [macway](keyboard/macway/)                - [Compact keyboard mod][GH_macway] [retired]
 * [HZH](keyboard/hzh/)                      - [Happy Zifle Hacking] Custom board by Zifle
+* [KMAC](keyboard/kmac/)                    - Korean custom keyboard
 
 [GH_macway]:    http://geekhack.org/showwiki.php?title=Island:11930
 [GH_hhkb]:      http://geekhack.org/showwiki.php?title=Island:12047
@@ -150,6 +152,15 @@ Note that you must use keys of **Layer 0** as Magic keys. These settings are sto
 - Set Default Layer to 1(`1`)
 - Set Default Layer to 2(`2`)
 - Set Default Layer to 3(`3`)
+- Set Default Layer to 4(`4`)
+- Set Default Layer to 5(`5`)
+- Set Default Layer to 6(`6`)
+- Set Default Layer to 7(`7`)
+
+#### Caution
+Unintentional use of this feature will cause user confusion.
+
+TODO: Magic key combination to avoid unintentional press during plug in
 
 **TBD**
 
