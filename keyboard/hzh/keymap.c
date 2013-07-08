@@ -84,7 +84,7 @@ static const uint8_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         TAB, Q,   W,   E,   R,   T,   Y,   U,   I,   O,   P,   LBRC,RBRC,BSLS,       \
         LCTL,A,   S,   D,   F,   G,   H,   J,   K,   L,   SCLN,QUOT,ENT,            \
         LSFT,Z,   X,   C,   V,   B,   N,   M,   COMM,DOT, SLSH,RSFT,FN0,            \
-        LALT,LGUI,               SPC,           RCTL,     RALT),
+        LGUI,LALT,               SPC,           RCTL,     RALT),
 
     /* Overlay 1: HHKB mode
      * ,-----------------------------------------------------------.
